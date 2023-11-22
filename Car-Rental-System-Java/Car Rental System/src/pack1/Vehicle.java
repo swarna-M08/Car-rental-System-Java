@@ -121,7 +121,7 @@ public abstract class Vehicle {
 
 	@Override
 	public String toString() {
-		// TODO fix spacing
+	
 		return String.format("|Number: %d|Make: %s|Brand: %s|Model: %s|Year: %d|Availablity: %b|Rate:%f", vehicleNo, make, brand, model, modelYear, available, dailyRate);
 	}
 }
