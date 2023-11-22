@@ -65,4 +65,3 @@ public class CustomerContainer {
 	}
 	
 }
-//custNo| Name| tel | address| nationality| type| idcard/passport| bankName| visitStart| visitEnd
