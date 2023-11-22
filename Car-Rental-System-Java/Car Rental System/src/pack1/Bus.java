@@ -12,21 +12,12 @@ public class Bus extends Vehicle {
 		this.driversNationality = driversNationality;
 	}
 	
-//	@Override
-//	public void findVehicle() {
-//		
-//	}
-//	@Override
-//	public void registerVehicle() {
-//		
-//	}
-//	
+
 	@Override
 	public String toString() {
-		// TODO fix spacing
+		
 		return super.toString() + String.format("|Bus|%d|%s|N/A|N/A|N/A|", numberOfSeats, driversNationality);
 	}
 	
 }
 
-//vehicleNo | make | brand | model | year | available | dailyrate | seats | driver | bodyType | gearType | engineSize
