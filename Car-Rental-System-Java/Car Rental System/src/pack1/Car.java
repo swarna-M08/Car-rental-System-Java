@@ -14,15 +14,7 @@ public class Car extends Vehicle {
 		this.engineSize = engineSize;
 	}
 	
-//	@Override
-//	public void findVehicle() {
-//		
-//	}
-//	@Override
-//	public void registerVehicle() {
-//		
-//	}
-	
+
 	@Override
 	public String toString() {
 	
@@ -30,4 +22,3 @@ public class Car extends Vehicle {
 	}
 }
 
-//vehicleNo | make | brand | model | year | available | dailyrate | seats | driver | bodyType | gearType | engineSize
